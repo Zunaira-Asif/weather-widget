@@ -1,0 +1,43 @@
+.body{
+    background-color: grey;
+}
+ .card{
+position: absolute;
+top: 50%;
+margin-left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+border-radius: 16%;
+background-color: white;
+border-width: 50%;
+border-color: black;
+}  
+.card-body{
+    background-color: white;
+    border-width: 25%;
+    border-color: black;
+    border-radius: 12%;
+}
+.card-title{
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    color: grey;
+}
+.card-text{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: white;
+
+}
+p{
+    text-align: center;
+    background-color: white;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+}
